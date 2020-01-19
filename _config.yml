@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Blogs
 subtitle: ''
-description: ''
+description: "so let's go back to the start"
 keywords:
-author: John Doe
+author: spiralzjt
 language: en
 timezone: ''
 
@@ -93,26 +93,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ocean
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-# Search extension
-search:
-  path: search.xml
-  field: post
-  content: true
-
-# Feed extension
-feed:
-     type: atom
-     path: atom.xml
-     limit: 20
-     hub:
-     content:
-     content_limit: 140
-     content_limit_delim: ' '
-     order_by: -date
