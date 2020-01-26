@@ -32,7 +32,7 @@ class Solution {
         return temp;
     }
     
-    //in the base of quicksort, change the return condition
+    //on the basis of quicksort, change the return condition
     public int quickSort(int[] nums, int begin, int end, int k){
         int index = partition(nums, begin, end);
         if(index + k == nums.length){
